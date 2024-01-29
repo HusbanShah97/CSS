@@ -9,13 +9,14 @@
         .container{
             width: 100%;
             height: 100%;
-        
+                 
         }
        
         .header{
             width:100%;
             height: 70px;
             border-bottom: 1px solid black;
+            /* display: flex; */
             
         }
         *{
@@ -24,9 +25,10 @@
         }
 
         .left{
-            width: 250px;
+            width: 300px;
             height: 500px;
-            border-right: 1px solid black    
+            border-right: 1px solid black; 
+               
         }
 
      .img-1{
@@ -48,7 +50,7 @@
 
      .header-1{
         display: flex;
-            
+         
      }
 
      
@@ -70,56 +72,85 @@
    
      }
      .card{
-      display: flex;
-      justify-content: flex-start;
-      margin-bottom: 10em;
-      display: flex;
-      justify-content: center;
+      border-bottom: 1px solid black;
+     float: right; 
+     width: 400px;
+     height: 380px;
+      position:relative; 
+      bottom: 30em;
+      right: 15px;
+      
+     
       
      }
       
 
      .card-1{
-        width: 300px;
+        width: 400px;
        height: 450px; 
-       border: 1px solid black;
-       border-radius: 10px;
+       border-top: 1px solid black;
+        border-radius: 10px; 
        box-sizing: border-box;
        background-image:url(image/istockphoto-1364859722-612x612.jpg);
        background-repeat: no-repeat;
+       background-size: 25em;
+       
        color: #ffffff;
-       border-bottom: 1px solid black;
+       
+       border: 1px solid black;
+       position:absolute;
+       right: 0px;
+      
        
        
      }
+      
+
+             
+       
+     
      
      .img-3{
          width: 30px;
          height: 30px;
-         padding-top: 20em;
-         border-top: 1px solid black;
-         padding-left: 10px;
-         padding-right: 10px;
+         padding: 16em 1em 0em 0em;   
+        float: right;
+
      }
 
-     .footer{
-          float: right;
-          
-          
+     .right{
+       width: 800px;
+       height: 800px;
+       margin: 20px 20px 0px 20px;
+   
      }
+       
+  .img-5{
 
+   border-radius: 50%;
+   margin: 0em 0em 0em 18em;
+
+  }
+
+  .img-4{
+   width: 400px;
+   height: 50px;
+   /* padding-bottom: 30px; */
+  }
+
+  .card-1 h4 h3 h5 {
+        padding-top: 30px;
+
+  }
      
-       
-       
-    
 
     
 
     
     </style>
-</head>
-<body>
-    <div class="container">
+ </head>
+ <body>
+      <div class="container">
        
         <div class="header">
           <div class="header-1">
@@ -137,7 +168,7 @@
 
           </div>
 
-         <div class="left">
+          <div class="left">
         
            <ul>
 
@@ -151,38 +182,39 @@
              <div class="hus">
                  <li><img src="c:\Users\hp\Downloads\graduation-cap-solid.svg" alt="" class="abc"> Enrolled</li><br/> 
                  <li><img src="c:\Users\hp\Downloads\bars-solid.svg" alt="" class="abc">To do</li><br/> 
-                  <li><img src="c:\Users\hp\Downloads\w-solid.svg" alt="" class="abc">Web and Development <br>Batch 1 sec-j</li><br/> 
-             </div>
+                 <li><img src="c:\Users\hp\Downloads\w-solid.svg" alt="" class="abc">Web and Development <br>Batch 1 sec-j</li><br/> 
+               </div>
 
               <div class="hus">
                   <li><img src="c:\Users\hp\Downloads\trash-solid.svg" alt="" class="abc">Archived classes</li> <br/>
                   <li> <img src="c:\Users\hp\Downloads\gear-solid.svg" alt="" class="abc">Setting</li>
+             </div>
+               
+          </ul>
+             </div>
+            
+          <div class="right">
+
+               <div class="card">    
+                  <div class="card-1">
+                     
+                     <h3>WED AND APP DEVELOP.....</h3>
+                     <h4>batch 11 sec-j</h4>
+                     <h5>MUHAMMAD RIZWAN BHATTI</h5>
+                           
+                        
+                      <div>
+                        <img src="image/sir rizwan.jpg" alt="" class="img-5">
+                      </div>
+                     
+                     <img src="image/user-solid (1).svg" alt="" class="img-3">
+                     <img src="image/folder-regular.svg" alt=""class="img-3" >
+                     
+                  </div>
+                  
                </div>
-            
-             </ul>
-            
-
-       </div>
-
-       <div class="card">    
-         <div class="card-1">
-            
-          <h3>WED AND APP DEVELOP.....</h3>
-          <h4>batch 11 sec-j</h4>
-          <h5>MUHAMMAD RIZWAN BHATTI</h5>
-            <div class="footer">
-               <!-- <div>
-                  <img src="image/user-solid (1).svg" alt="" class="img-3">
-               <img src="image/folder-regular.svg" alt=""class="img-3" >
-               </div> -->
-               <img src="image/user-solid (1).svg" alt="" class="img-3">
-               <img src="image/folder-regular.svg" alt=""class="img-3" >
-            </div>
-                    
-         </div>
-          
-       </div>
-
-  </div>
+               </div>
+        
+    </div>
 </body>
 </html>

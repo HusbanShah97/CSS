@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "qualc.http-server",
+        "blackmist.linkcheckmd"
+    ]
+}
